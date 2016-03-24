@@ -61,7 +61,7 @@ header {
 	right: 10%;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px),  screen and (max-device-width: 768px){
 	
 	.header-hover {
 		background: rgba(85,85,85,0.45);
@@ -77,6 +77,5 @@ header {
 		float: left;
 		display: inline-block;
 	}
-
 	
 }
