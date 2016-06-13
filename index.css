@@ -15,7 +15,7 @@ header {
 .header-hover {
 	width: 100vw;
 	height: 100vh;
-	position: fixed;
+	position: absolute;
 	top: 0px;
 	left: 0px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+25,555555+75,000000+100&1+0,0+0,1+100 */
@@ -61,10 +61,15 @@ header {
 	right: 10%;
 }
 
-@media screen and (max-width: 768px),  screen and (max-device-width: 768px){
+.area {
+	width: 100vw;
+	height: 100vh;
+}
+
+@media screen and (max-width: 960px),  screen and (max-device-width: 960px){
 	
 	.header-hover {
-		background: rgba(85,85,85,0.45);
+		background: rgba(75, 75, 75, 0.75);
 	}
 
 	.grid-2 {
