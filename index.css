@@ -109,15 +109,52 @@ header {
 	width: 20vw;
 	margin: 0 auto;
 	float: left;
+	cursor: default;
 }
 
 .area > .content > .list > .info {
 	width: 40vw;
 	float: left;
-	
+	cursor: default;
+	letter-spacing: calc(0.1vw + 2px );
 }
 
-img {
+footer {
+	background-color: #000;
+	color: #fff;
+}
+
+footer .profile {
+	width: 100vw;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer .name {
+	width: 100vw;
+	height: 20vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	font-size: 4vw;
+	letter-spacing: 0.1vw;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer img {
+	height: 20vh;
+	filter: brightness(0) invert(1);;
+	-webkit-filter: brightness(0) invert(1);;
+}
+
+
+
+header img {
 	z-index: 99;
 }
 
