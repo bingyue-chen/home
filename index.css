@@ -1,9 +1,13 @@
 * {
-	width: 100vw;
 	box-sizing: border-box;
 	margin: 0px;
 	padding: 0px;
 	font-family: '微軟正黑體', 'Arial';
+}
+
+body {
+	width: 100vw;
+	overflow: hidden;
 }
 
 header {
