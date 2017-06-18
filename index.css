@@ -46,17 +46,20 @@ header {
 
 .desc {
 	width: 75%;
+	padding-right: 5%;
 	color: white;
-	font-size: 18px;
-	line-height: 27px;
+	font-size: 18px; 
+	line-height: 24px; 
+	margin: 0 0 24px;
+	text-align: justify; 
+	text-justify: inter-word;
 	z-index: 99;
 }
 
 .desc::first-letter {
-	color: #66F0FC;
+	color: #1EB3F3;
 	font-size: 36px;
-	margin-right: 8px;
-	vertical-align: middle;
+	margin-right: 6px;
 }
 
 .crossline {
@@ -66,108 +69,10 @@ header {
 	right: 3%;
 }
 
-.area {
-	width: 100vw;
-	height: 100vh;
-}
-
-.area > .title {
-	width: 75vw;
-	height: 20vh;
-	margin: 0 auto;
-	font-size: 5vw;
-	text-align: center;
-	line-height: 20vh;
-	border-bottom: 5px dotted;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-.area > .content {
-	width: 60vw;
-	height: 80vh;
-	margin: 0 auto;
-	font-size: 1.25vw;
-	font-family: 'Source Serif Pro', serif;
-	letter-spacing: 0.1vw;	
-}
-
-.area > .content > .list {
-	display: inline-block;
-	height: auto;
-	padding-top: 3vh;
-	padding-bottom: 3vh;
-}
-.area > .content > .list ul {
-	list-style: none;
-}
-
-.area > .content > .list ul li {
-	padding-bottom: 1.5vh;
-}
-
-.fa {
-	margin-right: 5px;
-	margin-left: 5px;
-}
-
-.area > .content > .list > .icon {
-	width: 20vw;
-	margin: 0 auto;
-	float: left;
-	cursor: default;
-}
-
-.area > .content > .list > .info {
-	width: 40vw;
-	float: left;
-	cursor: default;
-	letter-spacing: calc(0.1vw + 2px );
-}
-
-footer {
-	width: 100vw;
-	background-color: #000;
-	color: #fff;
-}
-
-footer .profile {
-	width: 100vw;
-	height: 30vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-footer .name {
-	width: 100vw;
-	height: 20vh;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-footer p {
-	font-size: 4vw;
-	letter-spacing: 0.1vw;
-	font-family: 'Source Sans Pro', sans-serif;
-}
-
-footer img {
-	height: 20vh;
-	filter: brightness(0) invert(1);;
-	-webkit-filter: brightness(0) invert(1);;
-}
-
-
-
-header img {
-	z-index: 99;
-}
-
-@media screen and (max-width: 960px),  screen and (max-device-width: 960px){
+@media screen and (max-width: 640px),  screen and (max-device-width: 640px){
 	
 	.header-hover {
-		background: rgba(75, 75, 75, 0.75);
+		background: rgba(75, 75, 75, 0.15);
 	}
 
 	.grid-2 {
@@ -179,21 +84,5 @@ header img {
 		height: 100%;
 		float: left;
 		display: inline-block;
-	}
-
-	.area > .title { 
-		width: 90vw;
-	}
-	
-	.area > .content {
-		width: 80vw;
-	}
-
-	.area > .content > .list > .icon {
-		width: 35vw;
-	}
-
-	.area > .content > .list > .info {
-		width: 45vw;
 	}
 }
